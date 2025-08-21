@@ -1,5 +1,6 @@
 package com.abhishek.jarassignment.di
 
+import com.abhishek.jarassignment.data.remote.ApiService
 import com.abhishek.jarassignment.utils.AppConstants.BASE_URL
 import dagger.Module
 import dagger.Provides
@@ -20,6 +21,12 @@ object NetworkModule {
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
+    }
+
+    @Provides
+    @Singleton
+    fun provideApiService(retrofit: Retrofit): ApiService {
+        return retrofit.create(ApiService::class.java)
     }
 }
 
