@@ -5,6 +5,11 @@ This project is an **Android assignment** demonstrating a modern onboarding flow
 📸 Demo
 Onboarding Screens	Animations
 
+
+https://github.com/user-attachments/assets/7b5de45b-ffb1-4e09-a663-86bf933011a9
+
+
+ 
 The focus is on:
 - Clean **MVVM/MVI architecture**
 - **Jetpack Compose** for UI
