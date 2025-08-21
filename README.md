@@ -2,15 +2,34 @@
 
 This project is an **Android assignment** demonstrating a modern onboarding flow with animations, designed according to the provided [Figma prototype](https://www.figma.com/design/ampUCP1qi5pGxZvmiG7jh1/Jar_Dev_Assignment?node-id=0-1&t=RHfHy407LYpnZIt4-1) and powered by data from the given [API endpoint](https://api.npoint.io/796729cca6c55a7d089e).
 
+---
 📸 Demo
 Onboarding Screens	Animations
 
 
 https://github.com/user-attachments/assets/7b5de45b-ffb1-4e09-a663-86bf933011a9
 
+---
+## 🚀 Getting Started
 
+### Prerequisites
+- Android Studio **Meerkat (2024.3.2 Patch 1)**
+- JDK 17
+- Gradle 8.11.1
+
+### Steps
+1. Clone the repo:
+```
+   ```bash
+   git clone https://github.com/<your-username>/onboarding-animation-assignment.git
+   cd onboarding-animation-assignment
+```
+2. Create a local.properties file in the project root if it doesn’t exist, and add your Android SDK path:
+3. Open the project in Android Studio
+4. Sync Gradle
+5. Run on emulator/device
  
-The focus is on:
+### The focus is on:
 - Clean **MVVM/MVI architecture**
 - **Jetpack Compose** for UI
 - **Coroutines + Flow** for async work
