@@ -1,0 +1,234 @@
+{
+  ConstraintSets: {
+    start: {
+      bg: {
+        width: 'spread',
+        height: 'spread',
+        start: [
+          'parent',
+          'start',
+          0
+        ],
+        end: [
+          'parent',
+          'end',
+          0
+        ],
+        top: [
+          'parent',
+          'top',
+          0
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          0
+        ]
+      },
+      img: {
+        width: 'spread',
+        height: 'spread',
+        start: [
+          'bg',
+          'start',
+          16
+        ],
+        end: [
+          'bg',
+          'end',
+          16
+        ],
+        top: [
+          'bg',
+          'top',
+          16
+        ],
+        bottom: [
+          'title',
+          'top',
+          0
+        ]
+      },
+      title: {
+        width: 'wrap',
+        height: 'wrap',
+        start: [
+          'bg',
+          'start',
+          16
+        ],
+        end: [
+          'bg',
+          'end',
+          16
+        ],
+        top: [
+          'img',
+          'bottom',
+          16
+        ],
+        bottom: [
+          'button',
+          'top',
+          16
+        ]
+      },
+      button: {
+        width: 'wrap',
+        height: 'wrap',
+        start: [
+          'bg',
+          'start',
+          16
+        ],
+        end: [
+          'bg',
+          'end',
+          16
+        ],
+        bottom: [
+          'bg',
+          'bottom',
+          16
+        ]
+      },
+      arrow: {
+        width: 'wrap',
+        height: 'wrap',
+        start: [
+          'bg',
+          'end',
+          16
+        ],
+        top: [
+          'title',
+          'top',
+          0
+        ],
+        bottom: [
+          'title',
+          'bottom',
+          0
+        ],
+        alpha: 0
+      }
+    },
+    end: {
+      bg: {
+        width: 'spread',
+        height: 'spread',
+        start: [
+          'parent',
+          'start',
+          0
+        ],
+        end: [
+          'parent',
+          'end',
+          0
+        ],
+        top: [
+          'parent',
+          'top',
+          0
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          0
+        ]
+      },
+      img: {
+        width: 40,
+        height: 40,
+        start: [
+          'bg',
+          'start',
+          16
+        ],
+        top: [
+          'bg',
+          'top',
+          0
+        ],
+        bottom: [
+          'bg',
+          'bottom',
+          0
+        ],
+        custom: {
+          cornerPct: 50
+        }
+      },
+      title: {
+        width: 'spread',
+        height: 'wrap',
+        start: [
+          'img',
+          'end',
+          16
+        ],
+        end: [
+          'arrow',
+          'start',
+          8
+        ],
+        top: [
+          'img',
+          'top',
+          0
+        ],
+        bottom: [
+          'img',
+          'bottom',
+          0
+        ]
+      },
+      button: {
+        width: 'wrap',
+        height: 'wrap',
+        start: [
+          'bg',
+          'start',
+          16
+        ],
+        end: [
+          'bg',
+          'end',
+          16
+        ],
+        bottom: [
+          'bg',
+          'bottom',
+          16
+        ],
+        alpha: 0
+      },
+      arrow: {
+        width: 'wrap',
+        height: 'wrap',
+        end: [
+          'bg',
+          'end',
+          16
+        ],
+        top: [
+          'title',
+          'top',
+          0
+        ],
+        bottom: [
+          'title',
+          'bottom',
+          0
+        ]
+      }
+    }
+  },
+  Transitions: {
+    default: {
+      from: 'start',
+      to: 'end'
+    }
+  }
+}
